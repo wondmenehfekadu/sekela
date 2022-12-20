@@ -65,13 +65,10 @@
 }
 
 .card:hover {
-    background-color: black;
+    background-color: #020C53;
     color: #fff;
 }
 
-.card p:hover {
-    color: #6c757d;
-}
 
 @media(max-width: 991px) {
     .wrapper {

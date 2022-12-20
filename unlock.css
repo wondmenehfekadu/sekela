@@ -1,0 +1,36 @@
+.feature{
+    background-color: beige;
+    padding: 0 30px;
+}
+.feature h1{
+    line-height: 1;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-style: 900;
+}
+.feature p{
+    font-size: 15px;
+}
+.feature_container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 4rem;
+}
+.fetaure-left h1{
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+.fetaure-left p{
+    margin: 1rem 0 3rem;
+}
+
+.fetaure-right{
+    display: grid;
+}
+.htoer{
+    margin-bottom: 0;
+}
+li::before{
+    content: "\1F5F9";
+
+}
